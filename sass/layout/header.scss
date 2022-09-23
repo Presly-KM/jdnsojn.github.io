@@ -1,0 +1,29 @@
+.header {
+    padding: 1rem;
+    &__logo {
+        font-family: Shrikhand-Regular, "cursive";
+        margin: 0;
+        text-align: center;
+        
+    }
+}
+
+.header {
+    &--arrowback {
+      position: relative;
+    }
+  
+    &__arrow {
+      position: absolute;
+      left: 2rem;
+      height: 2rem;
+      width: 2rem;
+      top: 50%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      transform: translateY(-50%);
+      font-size: 1.2rem;
+      color: black;
+    }
+  }
